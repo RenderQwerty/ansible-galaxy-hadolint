@@ -2,7 +2,7 @@
 # defaults file for hadolint
 version: 'v1.10.4'
 github_release_url: 'https://github.com/hadolint/hadolint/releases/download/{{ version }}/hadolint-Linux-x86_64'
-dest_path: '/usr/local/sbin/hadolint'
+dest_path: '/usr/local/sbin/'
 dependencies:
   - name: haskell
   - name: haskell-stack

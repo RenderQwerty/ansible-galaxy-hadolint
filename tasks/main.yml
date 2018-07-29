@@ -9,5 +9,5 @@
 - name: Download hadolint from github
   get_url:
     url: "{{ github_release_url }}"
-    dest: "{{ dest_path }}"
+    dest: "{{ dest_path }}/hadolint"
     mode: 0755

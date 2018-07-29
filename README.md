@@ -11,6 +11,9 @@ Add this to your playbook:
       connection: local
       become: yes
       gather_facts: true
+      vars:
+        - version: 'v1.10.4'
+        - dest_path: /bin
       roles:
         - renderqwerty.hadolint
 
