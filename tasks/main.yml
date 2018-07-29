@@ -1,0 +1,13 @@
+---
+# tasks file for hadolint
+
+- name: ensure required packages installed
+  package:
+    name: "{{ item.name }}"
+  loop: "{{ dependencies }}"
+
+- name: Download hadolint from github
+  get_url:
+    url: "{{ github_release_url }}"
+    dest: "{{ dest_path }}"
+    mode: 0755
