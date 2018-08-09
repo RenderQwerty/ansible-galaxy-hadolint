@@ -2,7 +2,7 @@
 
 This role will install hadolint docker linter.
 # Usage example
-    ansible-galaxy install renderqwerty.hadolint
+    ansible-galaxy install renderqwerty.ansible_galaxy_hadolint
 
 Add this to your playbook:
 
@@ -15,7 +15,7 @@ Add this to your playbook:
         - version: 'v1.10.4'
         - dest_path: /bin
       roles:
-        - renderqwerty.hadolint
+        - renderqwerty.ansible_galaxy_hadolint
 
 # License
 
