@@ -15,7 +15,7 @@ Add this to your playbook:
         - version: 'v1.10.4'
         - dest_path: /bin
       roles:
-        - renderqwerty.hadolint
+        - renderqwerty.ansible_galaxy_hadolint
 
 # License
 
