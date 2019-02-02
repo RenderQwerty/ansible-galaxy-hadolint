@@ -1,6 +1,6 @@
 ---
 # defaults file for hadolint
-version: 'v1.10.4'
+version: 'v1.16.0'
 github_release_url: 'https://github.com/hadolint/hadolint/releases/download/{{ version }}/hadolint-Linux-x86_64'
 dest_path: '/usr/local/sbin/'
 dependencies:
