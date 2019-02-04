@@ -5,4 +5,3 @@ github_release_url: 'https://github.com/hadolint/hadolint/releases/download/{{ v
 dest_path: '/usr/local/sbin/'
 dependencies:
   - name: haskell-platform
-  - name: haskell-stack
