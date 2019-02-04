@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   author: "Yurii Fisakov"
-  description: "Ansible role for installing hadolint linter"
+  description: "Ansible role for installing populat dockerfile linter"
   license: "MIT"
   min_ansible_version: 1.6
   platforms:
